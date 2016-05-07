@@ -16,18 +16,18 @@ body {
   color: brown;
 }
 
-.logo{
-    text-align: left;
+nav{
+    background-color: antiquewhite;
 }
 
-.title-bar{
-    display: flex;
+nav ul{
+    display: inline;
 }
 
-.title{
-    font-family: 'Arial', Helvetica, sans-serifs;
-    text-align: center;
-    
+nav li{
+    text-align: right;
+    display: inline;
+    padding: 0 10px;
 }
 
 .description{
