@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
     <title>Terney's Smoke Shop</title>
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
+    
 <body>
-    <nav class="title-bar">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/KitKat_logo.svg/1280px-KitKat_logo.svg.png" style="width:150px; height:100px;">
-        <ul>
-            <li> <a herf="index.html">Terney's Smoke Shop</a></li>
-            <li> <a herf="#">About Us</a></li>
-            <li> <a herf="#">Location</a></li>
-            <li> <a herf="#">Contact Us</a></li>
-        </ul>
-    </nav>
+    <header class="container">
+        <div class="row">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/KitKat_logo.svg/1280px-KitKat_logo.svg.png" style="width:150px; height:100px;">
+            <nav>
+                <ul>
+                    <a class="btn btn-primary" herf="index.html" role="button">Terney's Smoke Shop</a>
+                    <a class="btn btn-primary" herf="#" role="button">About Us</a>
+                    <a class="btn btn-primary" herf="#" role="button">Location</a>
+                    <a class="btn btn-primary" herf="#" role="button">Contact Us</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <h2>Terney's Smoke Shop</h2>
+                <h3>Cigars, Tobacco, Drinks and Snacks</h3>
+                <h4>Your One Pit Stop</h4>
+            </div>
+        </div>
+    </section>
     
-    <h2 class="description">Cigars, tobacco, drinks and snacks</h2>
+    <section class="container">
+        <div class="row">
+            <figure class="col-sm-6">
+                <img src="StoreFront.png">
+            </figure>
+            <figure class="col-sm-6">
+                <h2>Terney's Smoke Shop</h2>
+                <p>Terney's is a small convenience store located downtown Owen Sound. Terney's is the only store that has a large selection of cigars in the area. Along with cigars, they sell e-cigerettes and regular cigerettes as well. Terney's also has one of the largest selection of drinks with at least 10 different kinds of Arazona. This is your one pit stop.</p>
+            </figure>
+        </div>
         
-    <div class="about">    
-        <ul class="col-sm-3 text-left">
-            <h3>OPENING HOURS</h3>
-            <p>Mon-Sat:  8am-9pm</p>
-            <p>Sun    : 10am-5pm</p>
-        </ul>
-        <ul class="col-sm-3 text right">
-            <h2>Terney's Smoke Shop</h2>
-            <p>819 2nd Ave E. Owen Sound</p>
-            <p>N4K 2H2, Ontario, Canada</p>
-            <p>Tel: (519)-370-0221</p>
-        </ul>
-    </div>
+        <div class="row">
+            <figure class="col-sm-6">
+                    <h2>Hours:</h2>
+                    <p>Mon-Sat:  8am-9pm</p>
+                    <p>Sun    : 10am-5pm</p>
+                    <h2>Location:</h2>
+                    <p>819 2nd Ave E. Owen Sound</p>
+                    <p>N4K 2H2, Ontario, Canada</p>
+                    <p>Tel: (519)-370-0221</p>
+            </figure>
+            <figure class="col-sm-6">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:450px;'><div id='gmap_canvas' style='height:400px;width:450px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.proxysitereviews.com/squid-proxies">squid proxies</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(44.5642581,-80.94224270000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.5642581,-80.94224270000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Terney\'s Smoke Shop</strong><br>819 2nd ave E, Owen Sound, N4K 2H2<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </figure>
+        </div>
+    </section>
+
+        
+    
     <p id="footer">&copy; Created by Alex Li</p>
 </body>
 </html>

@@ -1,50 +1,84 @@
-
-html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
-}
-
 body {
   font-family: 'Lato', sans-serif;
   background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood-texture-1.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
-  color: brown;
 }
 
-nav{
-    background-color: antiquewhite;
+header{
+    padding 20px 0;
 }
 
-nav ul{
+header nav{
+    margin: 30px;
+    float: right;
+}
+
+header ul{
     display: inline;
+    align-items: center;
 }
 
-nav li{
-    text-align: right;
-    display: inline;
-    padding: 0 10px;
+.btn{
+    padding: 14px 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
 }
 
-.description{
-    text-align: center;
+.btn.btn-primary{
+    color: beige;
+    background-color: rgba(0,0,0,0.5);
+    outline: none;
+    border: none;
 }
 
-.about{
+.btn.btn-primary:hover{
+    background-color: beige;
+    color: #654321;
+}
+
+.jumbotron{
     display: flex;
+    align-items: center;
+    background-image: url("http://www.consumerreports.org/content/dam/cro/news_articles/health/CR-Health-AH-Chocolate-Bars-1-16.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin-bottom: 30px;
 }
 
-.hours{
-    text-align: left;
+.jumbotron h2{
+    font-size: 70px;
+    color: beige;
 }
 
-.information{
-    text-align: right;
+.jumbotron h3{
+    color: beige;
 }
+
+.jumbotron h4{
+    color: beige;
+}
+
+section .row img{
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+
+
+section .row p{
+    color: beige;
+}
+
+section .row h2{
+    color: beige;
+}
+
+
 
 #footer {
     text-align: center;
