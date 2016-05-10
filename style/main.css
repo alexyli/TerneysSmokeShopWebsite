@@ -81,6 +81,8 @@ section .row h2{
 
 
 #footer {
+    color: beige;
+    margin-top: 60px;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
 }
