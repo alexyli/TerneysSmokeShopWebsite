@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Terney's Smoke Shop</title>
+    <link rel="stylesheet" type="text/css" href="../css/page.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+    
+<body>
+    <header class="container">
+        <div class="row">
+            <img src="https://melhumphrey2.files.wordpress.com/2012/10/kit-kat-logo.gif" class="btn" style="width:150px; height:100px;" onClick="location.href = '../index.html';">
+            <nav>
+                <ul>
+                    <a class="btn btn-primary" onClick="location.href = '../index.html';" role="button">Terney's Smoke Shop</a>
+                    <a class="btn btn-primary" onClick="location.href = 'about.html';" role="button">About Us</a>
+                    <a class="btn btn-primary" onClick="location.href = 'location.html';" role="button">Location</a>
+                    <a class="btn btn-primary" onClick="location.href = 'contact.html';" role="button">Contact Us</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="jumbotron" style="background-color: rgba(0,0,0,0.5);">
+        <div class="container">
+            <div class="row">
+                <h2>Location</h2>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row">
+            <figure class="col-sm-12">
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:725px;'><div id='gmap_canvas' style='height:440px;width:725px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/locaties/amsterdam/">auto huren amsterdam</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(44.56426574390858,-80.94191060899635),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.56426574390858,-80.94191060899635)});infowindow = new google.maps.InfoWindow({content:'<strong>Terney\'s Smoke Shop</strong><br>819 2nd ave E owen sound<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </figure>
+        </div>  
+        <div class="row">
+            <figure class="col-sm-12">
+                    <h2>Hours:</h2>
+                    <p>Mon-Sat:  8am-9pm</p>
+                    <p>Sun    : 10am-5pm</p>
+                    <h2>Location:</h2>
+                    <p>819 2nd Ave E. Owen Sound</p>
+                    <p>N4K 2H2, Ontario, Canada</p>
+            </figure>
+        </div>
+    </section>
+    
+    <section class="container">
+        <figure class="col-sm-12" style="color: black">
+            <a href="http://www.accuweather.com/en/ca/owen-sound/n4k/weather-forecast/54966" class="aw-widget-legal" >
+            <!--
+            By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+            -->
+            </a><div id="awcc1463082068072" class="aw-widget-current"  data-locationkey="54966" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1463082068072"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+        </figure>
+    </section>
+        
+    <p id="footer">&copy; Created by Alex Li</p>
+    
+</body>
+</html>
